@@ -42,9 +42,9 @@ public class UI {
             System.out.print("-");
         }else{
             if (piece.getColor() == Color.WHITE){
-                System.out.println(ANSI_WHITE + piece + ANSI_RESET);
+                System.out.print(ANSI_WHITE + piece + ANSI_RESET);
             }else{
-                System.out.println(ANSI_YELLOW + piece + ANSI_RESET);
+                System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
             }
         }
         System.out.print("  ");
